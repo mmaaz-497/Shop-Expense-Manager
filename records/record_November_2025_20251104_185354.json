@@ -1,0 +1,51 @@
+{
+  "created_at": "2025-11-04T18:53:54.238442",
+  "month": 11,
+  "month_name": "November",
+  "year": 2025,
+  "shop_name": "AR Book Mart",
+  "tagline": "AR Book Mart — Excellence in Service & Savings",
+  "profit_pct": 20.0,
+  "total_sales": 0,
+  "profit_amount": 0.0,
+  "total_expenses": 0.0,
+  "remaining_profit": 0.0,
+  "daily_sales": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "expenses": [
+    {
+      "name": "Rent",
+      "amount": 0
+    }
+  ]
+}

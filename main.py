@@ -188,6 +188,22 @@ else:
         st.info("Enter your PIN in the sidebar and press Unlock.")
         st.stop()
 
+# Optional logo upload (if user wants to upload the exact logo)
+st.sidebar.header("Logo")
+uploaded_logo = st.sidebar.file_uploader("Upload logo (PNG transparent preferred) to use in PDF", type=["png","jpg","jpeg"])
+logo_to_use = None
+if uploaded_logo is not None:
+    save_path = os.path.join(RECORDS_DIR, "uploaded_ar_logo.png")
+    with open(save_path, "wb") as f:
+        f.write(uploaded_logo.getbuffer())
+    logo_to_use = save_path
+    st.sidebar.success("Logo uploaded.")
+else:
+    # If default filename exists in app folder, use it
+    if os.path.exists(LOGO_FILENAME_DEFAULT):
+        logo_to_use = LOGO_FILENAME_DEFAULT
+
+
 with st.form("meta"):
     shop_name = st.text_input("Shop Name (used in PDF header)", value="AR Book Mart")
     tagline = st.text_input("Shop Tagline (appears in PDF footer)", value="AR Book Mart — Excellence in Service & Savings")
