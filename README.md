@@ -63,3 +63,9 @@ pip install streamlit pandas matplotlib reportlab pillow
 
 # 3. Run the app
 streamlit run app.py
+
+<!--
+SEO Keywords:
+Streamlit expense tracker, monthly profit calculator, Python finance app, sales tracking, 
+shop expense management, business profit app, Streamlit PDF generator, local storage app
+-->
