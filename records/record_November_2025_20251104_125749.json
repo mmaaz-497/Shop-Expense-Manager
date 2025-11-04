@@ -1,0 +1,51 @@
+{
+  "created_at": "2025-11-04T12:57:49.961172",
+  "month": 11,
+  "month_name": "November",
+  "year": 2025,
+  "shop_name": "AR Shop",
+  "tagline": "AR Shop — Excellence in Service & Savings",
+  "profit_pct": 20.0,
+  "total_sales": 1000,
+  "profit_amount": 200.0,
+  "total_expenses": 0.0,
+  "remaining_profit": 200.0,
+  "daily_sales": [
+    0,
+    1000,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "expenses": [
+    {
+      "name": "Rent",
+      "amount": 0
+    }
+  ]
+}
