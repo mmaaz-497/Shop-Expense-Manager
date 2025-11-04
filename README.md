@@ -1,5 +1,7 @@
 # 🏪 AR Monthly Shop Expense App  
+
 > A clean, mobile-friendly Streamlit app to calculate and manage your monthly shop sales, profit, and expenses — complete with PDF reports and charts.
+![App Screenshot](./screenshot.png)
 
 ![Streamlit](https://img.shields.io/badge/Framework-Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3.13+-blue?logo=python)
@@ -69,3 +71,4 @@ SEO Keywords:
 Streamlit expense tracker, monthly profit calculator, Python finance app, sales tracking, 
 shop expense management, business profit app, Streamlit PDF generator, local storage app
 -->
+
